@@ -1,0 +1,54 @@
+body{
+    background-color:lavender;
+}
+
+.imagen{
+    width: 40px;
+}
+
+
+main{
+    width: 940px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    border-radius: 100px;
+    display: flex;
+    
+}
+.input-texto,.mensaje{
+    border-radius: 10px;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    
+}
+.input-texto:active{
+    border-color: red;
+
+}
+.mensaje:active{
+    border-color: red;
+}
+.encriptar,.desencriptar{
+    border-radius: 10px;
+
+}
+
+.encriptar:hover{
+    border-color: red;
+}
+.desencriptar:hover{
+    border-color: red;
+}
+
+.mensaje{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url(imagenes/Professor-laytonD.jpg);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    
+    
+}
+
